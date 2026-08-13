@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "source": "INFO 511 Kaggle competition",
+  "target": "high_ozone",
+  "metric": "ROC-AUC",
+  "files": {
+    "train.csv": {
+      "rows": 46737,
+      "sha256": "9ba9515beba6d108d97bdc5df9f624f0aef0997478ffa31e25c1a80940f76bfc"
+    },
+    "test.csv": {
+      "rows": 30728,
+      "sha256": "bb4d9e2d2b256eba9e1e3f843f53022275500eb4d8196e80ced210bdbd26cd4c"
+    },
+    "sample_submission.csv": {
+      "rows": 30728,
+      "sha256": "05ecffe1b51782e687d39dff5867294e9edaa7a0e4e17c853a735ef449b1e016"
+    }
+  }
+}

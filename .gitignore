@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Kaggle is the authoritative source for competition data.
+data/*.csv
+submissions/*.csv
+!data/.gitkeep
+!data/release_manifest.json
+!submissions/.gitkeep
+
+# Notebook execution artifacts
+.ipynb_checkpoints/
